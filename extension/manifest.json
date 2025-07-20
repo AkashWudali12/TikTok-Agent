@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "TikTok Agent",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Click Button"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
